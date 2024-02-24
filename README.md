@@ -1,44 +1,16 @@
-# CloseToYou mobile APP
+# CloseToYou
 
-"CloseToYou" is a mobile application that allows real-time tracking of friends' locations. App requires access to user's contacts. Users can view their friends' locations on a map. The app offers a feature to set a radius, within which, upon a friend's appearance, the user receives a push notification. It is an ideal solution for coordinating meetings and monitoring the safety of loved ones.
+## Project Description
+"CloseToYou" is an innovative mobile application that utilizes geolocation to enable users to easily and effectively organize meetings and interact with people from their contact list. This application allows for immediate proposal of meetings when users are close to each other, making it an ideal tool for maintaining social contacts.
 
-## Used Tools
+## Key Features
+- **Location Map**: Allows users to track the current location of selected contacts.
+- **Biometric Security**: The entire login and authentication process is secured with a fingerprint scanner, ensuring a high level of privacy and security.
+- **Location Update**: Automatically updates the locations of contacts in real-time.
+- **PUSH Notifications**: Users receive PUSH notifications, informing about meeting opportunities.
 
-- Java/Kotlin
-- [OSMDROID MAP](https://osmdroid.github.io/osmdroid/How-to-use-the-osmdroid-library.html)
-- Android Biometric API
-- SQL Lite
-- Android Studio
-
-## Requirements
-
-- Android 10 or newer
-- Min. 4GB RAM
-- GPS
-- Internet Connection
-
-## How to run
-
-App uses API, you can get it by executing command `git clone https://github.com/Filip7243/CloseToYouAPI`, to configure API and run DB check here: [API](https://github.com/Filip7243/CloseToYouAPI)
-
-Execute command `git clone https://github.com/Filip7243/CloseToYouApp` and run app in your IDE, or get the .apk file from [architecture](architecture/app.apk) and install on your phone.
-
-## UML Diagrams
-
-- UseCase Diagram
-
-![UseCase_Diagram](architecture/UseCase_Diagram.png?raw=true)
-
-- Activity Diagram for Check map UseCase
-
-![Activity_Diagram](architecture/Activity_Diagram.png?raw=true)
-
-## GUI
-
-- Set Phone Number view
-
-![PhoneNumber_view](architecture/set_phone.png?raw=true)
-
-- Main Panel after Login
-
-![Main_Panel](architecture/main_panel.png?raw=true)
+## Utilized Technologies
+- **Android Studio**: The development environment used to create the application.
+- **Java/Kotlin**: Programming languages used for implementing application logic.
+- **OSMDROID MAP**: A library for handling maps and locations.
+- **Android Biometric API**: An API that enables the integration of biometric authentication methods.
