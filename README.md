@@ -1,4 +1,5 @@
 # CloseToYou
+The project was co-created with [@Filip7243](https://github.com/Filip7243).
 
 ## Project Description
 "CloseToYou" is an innovative mobile application that utilizes geolocation to enable users to easily and effectively organize meetings and interact with people from their contact list. This application allows for immediate proposal of meetings when users are close to each other, making it an ideal tool for maintaining social contacts.
