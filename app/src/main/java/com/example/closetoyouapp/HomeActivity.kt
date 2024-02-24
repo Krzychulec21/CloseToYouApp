@@ -104,7 +104,7 @@ class HomeActivity : AppCompatActivity() {
     private var radius: Double = 0.0
 
     // API
-    private val API_URL = "http://192.168.88.87:8080/api/v1/localization"
+    private val API_URL = "http://192.168.43.29:8080/api/v1/localization"
 
     //    private val API_URL = "http://192.168.43.29:8080/api/v1/localization"
     private val client = OkHttpClient()

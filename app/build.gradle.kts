@@ -81,8 +81,8 @@ dependencies {
     implementation("org.osmdroid:osmdroid-android:6.1.17")
     implementation("com.google.android.gms:play-services-location:21.0.1")
     implementation("androidx.room:room-runtime:2.4.2")
-    kapt("androidx.room:room-compiler:2.4.2") // Zmień tutaj na kapt
     implementation("androidx.room:room-ktx:2.4.2")
     implementation ("com.github.bumptech.glide:glide:4.12.0")
+    kapt("androidx.room:room-compiler:2.4.2")
     annotationProcessor ("com.github.bumptech.glide:compiler:4.12.0")
 }
